@@ -58,7 +58,6 @@
     flex-wrap: nowrap;
     overflow-x: scroll;
     margin: 0rem 4rem;
-    padding-left: 15rem;
     max-width: 90%;
   }
 
@@ -71,6 +70,8 @@
     height: 332px;
     margin: 2rem 1rem;
     border-radius: 5px;
+    object-fit: cover;
+    flex-shrink: 0;
   }
 
   button{

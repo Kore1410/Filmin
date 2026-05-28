@@ -42,21 +42,25 @@
     }
 
     #carouselContainer{
-        width: 100%;
-        height: auto;
+        width: calc(100%-8rem);
+        height: 450px;
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        overflow-x: hidden;
+        align-items: center;
+        overflow: hidden;
+        position:relative;
         margin: 0rem 4rem;
           
     }
 
     #carouselImages{
         display: flex;
-        justify-content: center;
-        position: relative;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
         flex-wrap: nowrap;
+        height:100%;
+        width: 100%;
         --webkit-mask: linear-gradient (to right, transparent, black 40%, black 60%, transparent);
         mask:linear-gradient (to right, transparent, black 40%, black 60%, transparent);  
     }
